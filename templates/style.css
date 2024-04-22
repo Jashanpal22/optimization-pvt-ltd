@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .product-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap if needed */
+    margin: 0 auto; /* Centers the content horizontally */
+    max-width: 1024px; /* Similar to Amazon's product page width */
+  }
+  
+  .product-image {
+    width: 400px; /* Adjust width as needed */
+    margin-right: 40px;
+  }
+  
+  .product-details {
+    flex: 1; /* Fills remaining space */
+  }
+  
+  .product-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .product-rating {
+    color: #f80;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .old-price {
+    color: #aaa;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  
+  .product-description {
+    margin-bottom: 20px;
+  }
+  
+  .product-description p {
+    line-height: 1.5; /* Adjust line spacing for readability */
+  }
+  
+  .reviews {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .review {
+    margin-bottom: 15px;
+  }
+  
+  .review h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .review-rating {
+    color: #f80;
+    font-weight: bold;
+  }
+  
+  .review-text {
+    line-height: 1.5; /* Adjust line spacing for readability */
+  }
+  
+  
